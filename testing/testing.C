@@ -1,31 +1,19 @@
 #include <stdio.h>
-#include <stdbool.h>
 
-int main()
-{
-    int num1;
-    int num2;
-    int num3;
+int main(){
+    int i;
 
-    printf("Enter the First number: ");
-    scanf("%d", &num1);
-
-    printf("Enter the Second number: ");
-    scanf("%d", &num2);
-
-    printf("Enter the Third number: ");
-    scanf("%d", &num3);
-
-    if(num1 > num2 && num1> num3)
-    {
-        printf("The Largest number is: %d", num1);
+    for(i = 1; i <= 6; i++){
+        if(i == 1)
+            continue;
+        if(i == 3)
+            continue;
+        if(i == 5)
+            continue;
+        printf("Sun %d\n", i);
+        i++;
     }
-    else if (num2 > num1 && num2 > num3) 
-    {
-        printf("The Largest number is: %d", num2);
-    }
-    else{
-        printf("The Largest number is: %d", num3);
-    }
+
+
     return 0;
 }

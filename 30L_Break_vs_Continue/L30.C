@@ -9,8 +9,8 @@ int main()
     {
         if(i == 13)
         {
-            //continue;
-            break;
+            continue;
+           // break;
         }
         printf("%d\n", i);
     }

@@ -15,7 +15,7 @@ void sort(int array[], int size) //The parameter is from the main
                 array[j+1] = temp;
             }
         } 
-    }
+    } 
 }
 
 void printArray(int array[], int size)

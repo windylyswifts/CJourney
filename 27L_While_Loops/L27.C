@@ -14,7 +14,7 @@ int main()
     fgets(name, 25, stdin); //refer L9
     name[strlen(name) - 1] = '\0';
 
-    while(strlen(name) == 0)
+    while(strlen(name) == 0)    
     {
         printf("\nPlease enter your name");
         printf("\nWhats youyr name:");
