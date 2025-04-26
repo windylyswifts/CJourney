@@ -51,5 +51,7 @@ int main()
         printf("\n");
     }
 
+    int j = 3;
+
     return 0;
 }

@@ -1,17 +1,15 @@
-#include  <stdio.h>
-
-int somecode(int n){
-    if(n<3)
-        return n * 10;
-    else if(n > 3)
-        return n + somecode(n-2);
-    else
-        return n + somecode(n-3);
-}
-
+#include <stdio.h>
 
 int main(){
-    printf("%d", somecode(8));
+    int arr[5] = {10, 20, 30, 40, 50};
+    int arr1[] = {1, 2, 3, 4, 5};
+
+    int arr2[5];
+    for(int i = 0; i < 5; i++){
+        arr2[i] = i * 2;
+        printf("%d\n", arr2[i]);
+    }
+    
 
     return 0;
 }
