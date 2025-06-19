@@ -49,6 +49,8 @@
         "day2.C": "cpp",
         "testing_feb_11.C": "cpp",
         "ITETEST.C": "cpp",
-        "type_traits": "cpp"
+        "type_traits": "cpp",
+        "stdbool.h": "c",
+        "random": "c"
     }
 }
