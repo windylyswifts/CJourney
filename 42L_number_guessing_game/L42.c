@@ -9,7 +9,7 @@ int main(){
     int guess, answer;
     int guesses = 0;
     
-    //this uses the current time as a ssed
+    //this uses the current time as a seed
     srand(time(0));
     //this will generate a random number from 1 to 100
     answer = (rand() % MAX) + MIN;

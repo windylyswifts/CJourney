@@ -26,7 +26,7 @@ int main(){
         } 
         printf("Guess: ");
         scanf("%c", &guess); //problem here is that it'll skip the next question because it adds a \n || new line
-        scanf("%c"); //just adding another scanf like this and it should remove the \n || New line
+        //scanf("%c"); //just adding another scanf like this and it should remove the \n || New line, we could also use getchar(), it works.
 
         guess = toupper(guess); //this is an error
 
