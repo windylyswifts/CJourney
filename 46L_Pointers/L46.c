@@ -13,7 +13,8 @@
 
 int main(){
     int age = 21; // this integer has a value and an address
-    int *pAge = &age; //the value of this variable is the same value from where it is being address which is age.
+    int *pAge = NULL; //Its a good practice to redirect to NULL first
+    pAge = &age; //the value of this variable is the same value from where it is being address which is age.
 
     printf("address of variable age:%p\n", &age); // the ampersand or "&" is the address of operator, basically telling the system to go to this direction
     printf("value of age:%d\n", age);
