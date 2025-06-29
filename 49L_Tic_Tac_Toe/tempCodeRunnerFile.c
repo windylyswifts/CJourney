@@ -28,13 +28,13 @@ int main(){
         //playermove
         playermove();
         winner = checkwinner();
-        if (winner != ' ' || checkfreespace() == 0){
+        if (winner != ' ' || checkfreespace == 0){
             break;
         }
         //computer move
         computerMove();
         winner = checkwinner();
-        if (winner != ' ' || checkfreespace() == 0){
+        if (winner != ' ' || checkfreespace == 0){
             break;
         }
     }
@@ -70,6 +70,7 @@ int checkfreespace(){
             if (board[i][j] != ' ')
             {
                 freespace--;
+
             }
         }
     }
