@@ -5,7 +5,7 @@
 int main() {
 
     int age;
-    char name[30]; //bytes
+    char name[50]; //bytes
 
     printf("\nWhat's your name?");
     //scanf("%s", &name); This is not optimal because there are times when the user will use white space which distrupts the syntx
